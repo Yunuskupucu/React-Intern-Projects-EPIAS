@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap");
+.contact-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 100px 0px 100px;
+  background-color: lightgray;
+}
+
+.contact-info-div {
+  padding: 0 20px;
+  border-radius: 30px;
+  background-color: #24294f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 515px;
+  gap: 20px;
+}
+
+.contact-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid lightgray;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-style: 25px;
+  height: 50px;
+}
+.contact-info:hover {
+  background-color: #4d5063;
+}
+
+.contact-title {
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  text-align: center;
+  font-size: 30px !important;
+}
+
+.line {
+  height: 1px;
+  background: lightgray;
+  width: 100%;
+  display: inline-block;
+}
+
+.contact-text {
+  font-size: 18px;
+}
+
+.contact-item {
+  font-size: 23px;
+  margin-right: 10px;
+}
+
+.contact-map {
+  border-radius: 25px;
+  overflow: auto;
+  width: 100%;
+  height: 515px;
+  margin-left: 20px;
+}

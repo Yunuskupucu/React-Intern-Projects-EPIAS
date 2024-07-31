@@ -1,0 +1,62 @@
+.task-create {
+  width: 40vw;
+}
+
+.task-update {
+  width: 600px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+
+.task-label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+.label-date {
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+.edit-label {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.task-input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 50px;
+}
+
+.task-button {
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.update-button {
+  background-color: gray;
+}
+
+.table-data {
+  font-size: 20px !important;
+}
+
+input {
+  font-size: 20px;
+}

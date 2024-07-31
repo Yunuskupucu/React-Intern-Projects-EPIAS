@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&display=swap");
+
+.about-div {
+  background-color: lightgray;
+}
+
+title {
+  display: block;
+  margin: 30px;
+  font-size: 50px;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.underline {
+  border-bottom: 4px solid #000;
+  padding-bottom: 2px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-one {
+  margin: 50px 0px 0px 30px;
+  width: 500px;
+  height: 300px;
+}
+
+.desc {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.img-two {
+  margin: 50px 30px 0px 0px;
+  width: 500px;
+  height: 300px;
+}

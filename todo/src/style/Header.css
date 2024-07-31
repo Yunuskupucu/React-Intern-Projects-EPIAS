@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap");
+
+header {
+  padding: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(9, 16, 72, 1) 39%,
+    rgba(62, 65, 86, 1) 92%
+  );
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header svg {
+  font-size: 40px;
+}
+
+.title {
+  margin-left: 550px;
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-size: 45px !important;
+}
+
+.sidenav {
+  width: 240px;
+  background: rgb(9, 15, 72) 0%;
+  position: absolute;
+  height: 110%;
+  padding: 0 30px;
+  left: -100%;
+  transition: all 1s;
+}
+
+.sidenav.active {
+  left: 0;
+}
+
+.logo {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+ul li a:hover,
+ul li a.active {
+  background-color: #627699;
+}
+
+ul li a svg {
+  margin-right: 10px;
+}

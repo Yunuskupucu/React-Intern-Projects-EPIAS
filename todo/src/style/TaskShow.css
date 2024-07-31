@@ -1,0 +1,22 @@
+.task-edit {
+  padding: 5px;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(18, 128, 182);
+  color: white;
+  margin-right: 10px;
+}
+.task-delete {
+  padding: 5px;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(170, 14, 14);
+  color: white;
+  margin-right: 10px;
+}

@@ -1,0 +1,8 @@
+.task-list {
+  width: 60vw;
+}
+
+table {
+  --bs-table-bg: transparent !important;
+  border-color: black !important;
+}
